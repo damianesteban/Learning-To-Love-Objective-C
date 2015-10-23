@@ -413,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = KeyboardProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.damianesteban.KeyboardProject;
@@ -424,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = KeyboardProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.damianesteban.KeyboardProject;
@@ -498,6 +500,7 @@
 				FBC1BC591BD7EFC40025A152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBC1BC5A1BD7EFC40025A152 /* Build configuration list for PBXNativeTarget "KeyboardProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +509,7 @@
 				FBC1BC5C1BD7EFC40025A152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBC1BC5D1BD7EFC40025A152 /* Build configuration list for PBXNativeTarget "KeyboardProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +518,7 @@
 				FBC1BC5F1BD7EFC40025A152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
