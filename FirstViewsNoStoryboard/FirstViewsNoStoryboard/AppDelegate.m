@@ -25,14 +25,18 @@
     
     UIView* v1 = [[UIView alloc] initWithFrame:CGRectMake(113, 111, 132, 194)];
     v1.backgroundColor = [UIColor colorWithRed:1 green:.3 blue:1 alpha:1];
-    UIView* v2 = [[UIView alloc] initWithFrame:CGRectMake(41, 56, 132, 194)];
+    UIView* v2 = [[UIView alloc] initWithFrame:CGRectInset(v1.bounds, 10, 10)];
     v2.backgroundColor = [UIColor colorWithRed:.5 green:1 blue:0.2 alpha:0.8];
-    UIView* v3 = [[UIView alloc] initWithFrame:CGRectMake(43, 197, 160, 230)];
-    v3.backgroundColor = [UIColor colorWithRed:1 green:0 blue:0.2 alpha:0.8];
+//    UIView* v3 = [[UIView alloc] initWithFrame:CGRectMake(43, 197, 160, 230)];
+//    v3.backgroundColor = [UIColor colorWithRed:1 green:0 blue:0.2 alpha:0.8];
     
-    [mainView addSubview:v1];
-    [mainView addSubview:v2];
-    [mainView addSubview:v3];
+//    [mainView addSubview:v1];
+//    [mainView addSubview:v2];
+//    [mainView addSubview:v3];
+    
+    [mainView addSubview: v1];
+    [v1 addSubview: v2];
+    //[mainView addSubview: v3];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
